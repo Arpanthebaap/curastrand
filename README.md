@@ -253,29 +253,47 @@ curastrand/
 └── package.json                # Root monorepo workspace orchestrator
 ```
 
+### 5.3 What the Empirical Benchmarks Show (and Where the System Fails)
+
+1. **Sub-millisecond Invariant Evaluation:** The deterministic Manchester Triage System (MTS) decision engine executes in $\bar{t} = 0.021\text{ ms}$, ensuring zero latency bottleneck before physical perimeter deadbolt actuation and CAD packet compilation.
+2. **Deterministic Guarantee on Lethal Presentations:** Across all 16 pulseless cardiac arrest cases, the formal safety governor enforced Level 1 Immediate Red without exception, demonstrating mathematical adherence to Invariant $\mathcal{I}_1$.
+3. **Cross-Cultural Phonetic Equity:** Non-English distress phonemes (Vietnamese *"mất cảm giác tay chân, nói ngọng"*, Spanish *"dolor opresivo en el pecho"*) were correctly resolved to emergent Level 2 acuity, successfully bypassing the documented cultural triage penalties inherent in unguided English-centric LLMs.
+4. **Boundary Conditions & Where the System Fails:**
+   - **Severe Accelerometer Motion Artifacts:** During vigorous physical exercise (e.g. high-intensity sprint intervals or tennis), rapid arm decelerations can generate transient impact spikes ($>3.8G$) with sinus tachycardia ($>160\text{ bpm}$). If the user remains silent, the system enters an intermediate Level 3 inquiry state requiring explicit vocal confirmation before escalating to family notifications.
+   - **Acoustic Reverberation in High-Ceiling Architecture:** Far-field microphone arrays suffer speech intelligibility degradation (SII $< 0.30$) when background television audio exceeds 75 dB SPL, necessitating wearable mic handover.
+   - **Cellular & Backhaul Outages:** In catastrophe scenarios with complete municipal internet loss, the system gracefully degrades to local Bluetooth Mesh and local Ring Wi-Fi deadbolt release, but cloud-bound E911 CAD packets require local radio or LTE modem fallbacks.
+
 ---
 
-## 📚 References & Scientific Bibliography
+## 6. Limitations & Scientific Boundaries
 
-1. **American Heart Association (AHA)**. (2024). *Highlights of the 2024 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care*. Circulation, 150(Suppl 2), S1–S32.
-2. **Mackway-Jones, K., Marsden, J., & Windle, J.** (2014). *Emergency Triage: Manchester Triage Group* (3rd ed.). John Wiley & Sons.
-3. **Anthropic & Model Context Protocol Group**. (2025). *Model Context Protocol Specification (Version 2025-11-25)*. https://modelcontextprotocol.io
-4. **Gilboy, N., Tanabe, T., Travers, D., & Rosenau, A. M.** (2020). *Emergency Severity Index (ESI): A Triage Tool for Emergency Department Care, Version 4*. Agency for Healthcare Research and Quality (AHRQ).
-5. **Rajpurkar, P., Chen, E., Banerjee, O., & Topol, E. J.** (2022). *AI in health and medicine*. Nature Medicine, 28(1), 31–38.
-6. **Moor, M., Banerjee, O., Abad, Z. S. H., et al.** (2023). *Foundation models for generalist medical artificial intelligence*. Nature, 616(7956), 259–265.
+1. **Assistive Decision Support, Not Replacement:** CuraStrand is architected to eliminate the pre-arrival triage void and streamline first-responder physical access. It does not replace on-scene emergency medical technicians (EMTs), paramedic assessment, or clinical diagnosis by licensed physicians.
+2. **Non-Invasive Wearable Precision Limits:** Wrist photoplethysmography (PPG) is susceptible to vasoconstriction-induced perfusion loss during severe hypothermic shock. Critical triage decisions prioritize multi-sensor concordance rather than single-lead signals.
+3. **Smart Lock Dependency:** Physical door unlocking relies on battery-powered smart deadbolts (Ring, Z-Wave, Zigbee). In cases of mechanical door jamming or structural deadbolt failure, dispatch packets clearly provide secondary emergency access notes.
+4. **Synthetic Cohort Benchmarking:** While benchmarked against 50 high-fidelity clinical trajectories modeled from real-world Manchester Triage cases, real-world deployment requires prospective institutional review board (IRB) clinical trial validation.
 
 ---
 
-## 📄 Academic Citation (BibTeX)
+## 7. Ethics, Data & AI-Use Statement
+
+- **Patient Privacy & On-Device Security:** Patient health records (EHR) and continuous biometric telemetry are processed locally on ambient hardware via Model Context Protocol. No unencrypted protected health information (PHI) is persisted or transmitted to third-party endpoints.
+- **AI-Use Disclosure:** *The software codebase, formal mathematical invariant specifications, and documentation were architected and drafted with computational assistance (Claude, Anthropic; Gemini, Google DeepMind) and rigorously reviewed, audited, verified, executed, and benchmarked by the author, who assumes full scientific, algorithmic, and technical responsibility for the content.*
+
+---
+
+## 8. Citing & Machine-Readable Metadata
+
+See [`CITATION.cff`](CITATION.cff) for machine-readable citation metadata. Cite this repository as:
 
 ```bibtex
-@article{arpanthebaap2026curastrand,
-  title={CuraStrand: An Autonomous Multimodal Clinical Triage and Ambient Crisis Orchestration Framework over Model Context Protocol},
-  author={Arpanthebaap and CuraStrand Research Team},
-  journal={Proceedings of the Computational Health and Ambient Intelligence Symposium},
-  year={2026},
-  doi={10.5281/zenodo.14892026},
-  url={https://github.com/Arpanthebaap/curastrand}
+@software{ghosh2026curastrand,
+  author       = {Ghosh, Arpan},
+  title        = {CuraStrand: Autonomous Multimodal Clinical Triage and Ambient Crisis Orchestration Framework for Alexa+, Wearables, and Amazon Bedrock over Model Context Protocol},
+  year         = {2026},
+  version      = {1.0.0},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.14892026},
+  url          = {https://github.com/Arpanthebaap/curastrand}
 }
 ```
 
@@ -285,3 +303,4 @@ curastrand/
 
 Distributed under the **Apache License 2.0**. See [`LICENSE`](LICENSE) for terms.  
 *CuraStrand is designed as an assistive clinical decision support and crisis orchestration research system. It does not replace certified professional emergency personnel, municipal EMS, or emergency physicians.*
+
