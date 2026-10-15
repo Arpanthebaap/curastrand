@@ -1,0 +1,28 @@
+{
+  "name": "curastrand-monorepo",
+  "version": "1.0.0",
+  "description": "CuraStrand: Autonomous Multimodal Clinical Triage & Ambient Crisis Orchestration Framework for Alexa+, Wearable Telemetry, and Amazon Bedrock via Model Context Protocol (MCP)",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "npm --prefix packages/mcp-server run build && npm --prefix packages/agent-core run build && npm --prefix packages/web-hud run build",
+    "test": "npm --prefix packages/research-benchmark run test",
+    "start": "npm --prefix packages/web-hud run preview"
+  },
+  "keywords": [
+    "alexa-plus",
+    "model-context-protocol",
+    "mcp",
+    "amazon-bedrock",
+    "strands-sdk",
+    "emergency-triage",
+    "healthcare-ai",
+    "wearable-ai",
+    "ring-security"
+  ],
+  "author": "CuraStrand Research Team",
+  "license": "Apache-2.0"
+}

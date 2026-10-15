@@ -1,0 +1,21 @@
+{
+  "name": "@curastrand/agent-core",
+  "version": "1.0.0",
+  "description": "CuraStrand Multi-Agent Clinical Orchestration Loop powered by Amazon Bedrock & Strands Agents SDK over MCP",
+  "main": "dist/orchestrator.js",
+  "types": "dist/orchestrator.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/orchestrator.js",
+    "dev": "tsx watch src/orchestrator.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.714.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

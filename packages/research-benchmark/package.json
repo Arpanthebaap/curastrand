@@ -1,0 +1,13 @@
+{
+  "name": "@curastrand/research-benchmark",
+  "version": "1.0.0",
+  "description": "CuraStrand Formal Safety Invariant Benchmarks and Multi-Cohort Evaluation Suite",
+  "scripts": {
+    "test": "tsx src/runBenchmarks.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
