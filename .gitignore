@@ -19,8 +19,9 @@ out/
 *.key
 aws-credentials.json
 
-# Unpublished research manuscripts (kept local for journal embargo / double-blind review)
+# Unpublished research manuscripts & local operational assets
 docs/RESEARCH_PAPER.md
+DEMO_VIDEO_SCRIPT.md
 
 # Logs
 npm-debug.log*

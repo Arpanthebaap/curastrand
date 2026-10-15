@@ -19,9 +19,9 @@ Version 1.0.0 • Apache-2.0 licence
 ---
 
 <p align="center">
-  <img src="docs/assets/app_preview.jpg" alt="CuraStrand Interface Preview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+  <img src="docs/assets/curastrand_vfib_emergency_hud.png" alt="CuraStrand Interface Preview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
   <br>
-  <em><b>Figure 1.</b> The CuraStrand Clinical Triage & Emergency Command Center interface showing real-time 60fps ECG Lead II telemetry, acoustic formant classification, Manchester Triage invariant proof status, and automated smart perimeter deadbolt actuation.</em>
+  <em><b>Figure 1.</b> The CuraStrand Clinical Triage & Ambient Crisis Command Center executing Scenario 1 (Ventricular Fibrillation & Pulseless Collapse). The interface demonstrates real-time 60fps Lead II ECG telemetry and flatline PPG (HR 198 bpm, BP 58/34 mmHg), bidirectional JSON-RPC 2.0 Model Context Protocol (MCP v2025-11-25) tool invocation traces, formal Manchester Triage invariant proof generation (<code>0xGOV-PASS-1A13E9DC027</code>), and automated Ring smart deadbolt emergency access override (<code>FIRST RESPONDER ENTRY GRANTED</code> with pulsing exterior floodlight SOS beacon).</em>
 </p>
 
 ---
@@ -148,6 +148,12 @@ $$\mathcal{G}(\mathcal{A}_{\text{model}}, \mathbf{V}, \mathbf{A}) = \begin{cases
 This mathematically guarantees:
 $$\mathbb{P}(\text{False Negative} \mid \mathcal{L}^* = 1) = 0.000$$
 
+<p align="center">
+  <img src="docs/assets/curastrand_acoustic_safety_ledger.png" alt="Acoustic Spectrogram and Manchester Triage Safety Ledger" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+  <br>
+  <em><b>Figure 3.</b> Real-time Acoustic Biomarker Spectrogram (100 Hz – 8 kHz formant band decomposition with Speech Intelligibility Index) and the Manchester Triage Formal Safety Ledger displaying mathematical proof verification across invariants $\mathcal{I}_1$ through $\mathcal{I}_4$ with cryptographic proof hash (<code>0xMTS8B21A40</code>).</em>
+</p>
+
 ### 3.4 Model Context Protocol (v2025-11-25) Implementation
 All subsystem coordination is mediated through standard MCP transports:
 - `GET /mcp/sse`: Server-Sent Events stream delivering asynchronous notifications.
@@ -160,6 +166,12 @@ All subsystem coordination is mediated through standard MCP transports:
   5. `ems_dispatcher`: Compile HL7/FHIR CAD emergency packet.
   6. `cpr_metronome`: Trigger bystander CPR pacing instructions.
 
+<p align="center">
+  <img src="docs/assets/curastrand_cpr_metronome.png" alt="Bystander CPR Metronome Modal" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+  <br>
+  <em><b>Figure 4.</b> Level-1 Emergency Bystander CPR Metronome interface synthesized via the Web Audio API at the AHA-mandated 110 BPM cadence, providing synchronized audio-visual compression pacing and step-by-step guidance during cardiac collapse.</em>
+</p>
+
 ---
 
 ## 4. Empirical Evaluation Setup
@@ -170,6 +182,12 @@ To evaluate protocol robustness, sensitivity, and latency, we constructed a vali
 3. **Cohort 3 ($n=9$):** Traumatic Geriatric Mechanical Fall ($5.8G$) with Eliquis Anticoagulation (Head strike risk).
 4. **Cohort 4 ($n=8$):** Pediatric Biphasic Food Anaphylaxis (Laryngeal stridor, SpO2 84%).
 5. **Cohort 5 ($n=8$):** Multilingual Stroke Presentations (Vietnamese, Spanish, Hindi distress phonemes).
+
+<p align="center">
+  <img src="docs/assets/curastrand_benchmark_console.png" alt="Clinical Benchmark Evaluation Console" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+  <br>
+  <em><b>Figure 5.</b> Interactive Clinical Benchmark Evaluation Console supporting 1-click loading and execution of standardized patient cohorts (VFib arrest, traumatic geriatric subdural fall, pediatric biphasic anaphylaxis, and cross-cultural stroke) for instant peer-reviewed reproducibility.</em>
+</p>
 
 ---
 
