@@ -19,6 +19,9 @@ out/
 *.key
 aws-credentials.json
 
+# Unpublished research manuscripts (kept local for journal embargo / double-blind review)
+docs/RESEARCH_PAPER.md
+
 # Logs
 npm-debug.log*
 yarn-debug.log*

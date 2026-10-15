@@ -1,0 +1,24 @@
+{
+  "title": "CuraStrand: Autonomous Multimodal Clinical Triage & Ambient Crisis Orchestration Framework over Model Context Protocol",
+  "description": "An autonomous clinical triage and crisis orchestration framework integrating Model Context Protocol (MCP v2025-11-25), Amazon Bedrock foundation models, wearable biosignals, and formal Manchester Triage safety invariants.",
+  "creators": [
+    {
+      "name": "Arpanthebaap",
+      "affiliation": "CuraStrand Biomedical Informatics Collaborative"
+    }
+  ],
+  "keywords": [
+    "clinical-decision-support",
+    "emergency-triage",
+    "model-context-protocol",
+    "mcp",
+    "amazon-bedrock",
+    "strands-sdk",
+    "wearable-ai",
+    "formal-verification",
+    "manchester-triage-system"
+  ],
+  "license": "Apache-2.0",
+  "upload_type": "software",
+  "access_right": "open"
+}

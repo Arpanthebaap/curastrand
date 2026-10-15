@@ -1,10 +1,8 @@
-# Amazon Developer Platform Friction Log
-**Project**: CuraStrand  
-**Hackathon**: *Build, Ship, Shape: Amazon Developer Hackathon 2026*  
-**Author**: CuraStrand Research Team / Arpanthebaap (`https://github.com/Arpanthebaap`)  
-**Target Tracks**: Alexa+ Track (Primary), AWS Builder Mini Challenge, Open Source Mini Challenge  
+# Amazon Developer Platform Engineering Diagnostic & Feedback Log
+**Project**: CuraStrand Research Initiative  
+**Author**: CuraStrand Biomedical Informatics Team / Arpanthebaap (`https://github.com/Arpanthebaap`)  
+**Scope**: Model Context Protocol (v2025-11-25), Amazon Bedrock Runtime, Strands Agents SDK, Ring Perimeter Simulators  
 **Date**: October 2026  
-**Bonus Consideration**: Up to +10% Evaluation Multiplier  
 
 ---
 
