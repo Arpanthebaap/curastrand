@@ -18,6 +18,14 @@ Version 1.0.0 • Apache-2.0 licence
 
 ---
 
+<p align="center">
+  <img src="docs/assets/app_preview.jpg" alt="CuraStrand Interface Preview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);" />
+  <br>
+  <em><b>Figure 1.</b> The CuraStrand Clinical Triage & Emergency Command Center interface showing real-time 60fps ECG Lead II telemetry, acoustic formant classification, Manchester Triage invariant proof status, and automated smart perimeter deadbolt actuation.</em>
+</p>
+
+---
+
 ## Abstract
 Acute out-of-hospital medical crises—specifically Out-of-Hospital Cardiac Arrest (OHCA), acute ST-Elevation Myocardial Infarction (STEMI), ischemic stroke with hemiparesis/aphasia, traumatic geriatric falls, and biphasic anaphylaxis—are dominated by the **"Fatal Seven-Minute Triage Void"**. During this pre-arrival window, patients frequently lose consciousness, enter shock, or suffer acute motor hemiparesis, rendering manual dialing of emergency medical services (911/999) physically impossible. Concurrently, ambient residential IoT ecosystems operate in disconnected data silos, and raw foundation models lack formal clinical safety guarantees.
 
@@ -103,6 +111,12 @@ CuraStrand ingests high-frequency biosignals from connected wearables (Bee devic
 - **Photoplethysmography (PPG):** Peripheral pulse waveform tracking volumetric organ blood flow and dicrotic notch characteristics.
 - **SpO2 & Hemodynamic Gauges:** Pulse oximetry percentage, resting/acute heart rate (BPM), and continuous non-invasive blood pressure (NIBP in mmHg).
 - **Impact Deceleration ($G$):** Triaxial accelerometer vector magnitude ($G = \sqrt{a_x^2 + a_y^2 + a_z^2}$). Impact decelerations exceeding $4.0G$ trigger trauma fall cascade protocols.
+
+<p align="center">
+  <img src="docs/assets/figure2_ecg_vectors.svg" alt="Lead II ECG Waveform Vectors" width="100%" />
+  <br>
+  <em><b>Figure 2.</b> Vector comparison of Lead II ECG telemetry morphologies processed by the biosignal invariant evaluator: Normal Sinus Rhythm (baseline), STEMI (ST-segment elevation &gt;0.2 mV), Ventricular Fibrillation (chaotic depolarizations), and Asystole (ventricular standstill requiring immediate CPR initiation).</em>
+</p>
 
 ### 3.2 Acoustic Biomarker Extraction
 Using far-field ambient microphone arrays (Alexa Echo Show / Echo Dot):
