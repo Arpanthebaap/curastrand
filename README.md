@@ -4,7 +4,7 @@
 *Independent Researcher (Applied AI Systems & Biomedical Informatics), Birbhum, West Bengal, India*  
 **Contact:** `arpanghosh984@gmail.com` | +91 77971 30249 | [GitHub Profile](https://github.com/Arpanthebaap)  
 Version 1.0.0 • Apache-2.0 licence  
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14892026.svg)](https://doi.org/10.5281/zenodo.14892026)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23396097.svg)](https://doi.org/10.5281/zenodo.23396097)
 [![Tests](https://github.com/Arpanthebaap/curastrand/actions/workflows/ci.yml/badge.svg)](https://github.com/Arpanthebaap/curastrand/actions/workflows/ci.yml)
 [![MCP Spec](https://img.shields.io/badge/Model_Context_Protocol-Spec_v2025--11--25-06B6D4)](https://modelcontextprotocol.io)
 [![Cognitive Core](https://img.shields.io/badge/Cognitive_Core-Amazon_Bedrock_+_Strands_SDK-232F3E?logo=amazon-aws)](https://aws.amazon.com/bedrock/)
@@ -320,7 +320,7 @@ See [`CITATION.cff`](CITATION.cff) for machine-readable citation metadata. Cite 
   year         = {2026},
   version      = {1.0.0},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.14892026},
+  doi          = {10.5281/zenodo.23396097},
   url          = {https://github.com/Arpanthebaap/curastrand}
 }
 ```

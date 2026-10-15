@@ -9,6 +9,7 @@ authors:
     affiliation: "CuraStrand Biomedical Informatics Collaborative"
 version: "1.0.0"
 date-released: "2026-10-15"
+doi: "10.5281/zenodo.23396097"
 license: "Apache-2.0"
 repository-code: "https://github.com/Arpanthebaap/curastrand"
 url: "https://github.com/Arpanthebaap/curastrand"
